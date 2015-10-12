@@ -1041,7 +1041,7 @@
 					@if(Session::get('role') == 1)
 						<ul style="list-style-type:none;margin-left: -40px;">
 						<li id="menu-header"><b>UTILITIES</b></li>
-						<li>{{ HTML::linkRoute('project.list', 'Logs', array(), array('class' => 'submenu-font')) }}</li>
+						<li>{{ HTML::linkRoute('project.list', 'User Logs', array(), array('class' => 'submenu-font')) }}</li>
 						</ul>
 					@endif	
 				
