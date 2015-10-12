@@ -1,0 +1,26 @@
+body{
+	background-color: #fff;
+}
+
+.header{
+	background: radial-gradient(farthest-side at 10% 10% , #1971b5, #001020) no-repeat scroll 0 0 #001020;
+}
+
+#projectname{
+	color: #fff;
+}
+
+#content-container{
+
+	margin: 0 auto;
+	border: solid  whitesmoke 2px;
+	background-color: #fff;
+	border-radius: 5px;
+
+}
+
+.footer-content{
+	text-align:right;
+	font-size:11px;
+	color:#333;
+}

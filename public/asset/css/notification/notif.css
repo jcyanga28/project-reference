@@ -1,0 +1,86 @@
+#nav{list-style:none;margin: 0px;
+padding: 0px;}
+#nav li {
+float: left;
+margin-right: 20px;
+font-size: 14px;
+font-weight:bold;
+}
+#nav li a{color:#333333;text-decoration:none}
+#nav li a:hover{color:#006699;text-decoration:none}
+#notification_li{position:relative}
+#notificationContainer {
+background-color: #000;
+border: 1px solid rgba(100, 100, 100, .4);
+-webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, .25);
+overflow: visible;
+position: absolute;
+top: 30px;
+margin-left: -170px;
+width: 400px;
+z-index: -1;
+display: none;
+}
+#notificationContainer:before {
+content: '';
+display: block;
+position: absolute;
+width: 0;
+height: 0;
+color: transparent;
+border: 10px solid black;
+border-color: transparent transparent white;
+margin-top: -20px;
+margin-left: 188px;
+}
+#notificationTitle {
+z-index: 1000;
+font-weight: bold;
+padding: 8px;
+font-size: 13px;
+background-color: #000;
+width: 384px;
+border-bottom: 1px solid #dddddd;
+}
+#notificationsBody {
+padding: 33px 0px 0px 0px !important;
+min-height:300px;
+}
+#notificationFooter {
+background-color: #e9eaed;
+text-align: center;
+font-weight: bold;
+padding: 8px;
+font-size: 12px;
+border-top: 1px solid #dddddd;
+}
+#notification_count {
+padding: 3px 7px 3px 7px;
+background: #cc0000;
+color: #ffffff;
+font-weight: bold;
+margin-left: 150px;
+border-radius: 9px;
+position: absolute;
+margin-top: -11px;
+font-size: 11px;
+}
+
+
+.info,.success,.error,.warning,.tip,.secure,.message,.download,.purchase,.print{margin:20px 50px; padding:10px;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;-moz-box-shadow: 4px 4px #dfe1d8;-webkit-box-shadow: 4px 4px #dfe1d8;box-shadow: 4px 4px #dfe1d8;}
+
+/*Styling for text inside boxes*/
+h4 { margin:5px 5px 5px 80px;padding:0; font-size:16px; }
+/*p { font-size:10px; color:#000; margin:5px 5px 5px 80px; }*/
+
+/*Boxes*/
+.info{border:1px solid #0e7fad;color:#0e7fad;background:#c0e9fa url('../../img/notification/info.png') no-repeat; background-position:30px 20px;}
+/*.success{border:1px solid #4f8746;color:#4f8746;background:#d4ffcd url('../../img/notification/success.png') no-repeat; background-position:30px 20px;}*/
+/*.error{border:1px solid #641f1a;color:#641f1a;background:#ffd2d4 url('../../img/notification/error.png') no-repeat; background-position:30px 20px;}*/
+/*.warning{border:1px solid #9d9c49;color:#9d9c49;background:#fdfdcb url('../../img/notification/warning.png') no-repeat; background-position:30px 20px;}*/
+.tip{border:1px solid #c77d10;color:#c77d10;background:#f9d69e url('../../img/notification/tip.png') no-repeat; background-position:30px 20px;}
+.secure{border:1px solid #9638f1;color:#9638f1;background:#e5cefc url('../../img/notification/secure.png') no-repeat; background-position:30px 20px;}
+.message{border:1px solid #000;color:#000;background:#efefef url('../../img/notification/message.png') no-repeat; background-position:30px 20px;}
+.download{border:1px solid #04b5eb;color:#04b5eb;background:#f7f7f7 url('../../img/notification/download.png') no-repeat; background-position:30px 20px;}
+.purchase{border:1px solid #426164;color:#426164;background:#c2e1e3 url('../../img/notification/purchase.png') no-repeat; background-position:30px 20px;}
+.print{border:1px solid #3c4b5e;color:#3c4b5e;background:#c8d9e3 url('../../img/notification/print.png') no-repeat; background-position:30px 20px;}

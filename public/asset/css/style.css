@@ -1,0 +1,17 @@
+.action {
+	width: 10px;
+	text-align: center;
+}
+.action-submit {
+	width: 150px;
+	text-align: center;
+}
+.filter { padding-bottom: 10px;}
+
+.form-inline .form-group input {
+    min-width:350px;
+}
+
+$('#test').css('textTransform', 'capitalize');
+
+
